@@ -1,26 +1,64 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import {Switch, Route , withRouter} from 'react-router';
+import NavBar from './components/NavBar'
+// import Button from 'react-bootstrap/Button';
+import Home from './components/Home'
+import About from './components/About'
+import Contact from './components/Contact'
+import Projects from './components/Projects'
+import Github from './components/GitHub'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+
+
+// rendeHome = (routerProps) => {
+
+//      if(routerProps.location.pathname === "/home") {
+//               return <Home/>
+//      }
+
+//   }
+
+  render() {
+    return (
+      <div>
+          <NavBar/>
+          <Switch>
+          <Route path="/home" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/contact" component={Contact}/>
+          <Route path="/projects" component={Projects} />
+          <Route path="/github" component={Github} />
+         </Switch>
+      </div>
+    )
+  }
 }
 
-export default App;
+let componentWithRouterProps = withRouter(App)
+export default componentWithRouterProps;
+
+
+
+
+
+
+
+// function App() {
+//   return (
+//     <div>
+//       <NavBar/>
+
+//       {/* <>
+//   <Button variant="primary">Primary</Button>{' '}
+//   <Button variant="secondary">Secondary</Button>{' '}
+//   <Button variant="success">Success</Button>{' '}
+//   <Button variant="warning">Warning</Button>{' '}
+//   <Button variant="danger">Danger</Button> <Button variant="info">Info</Button>{' '}
+//   <Button variant="light">Light</Button> <Button variant="dark">Dark</Button>{' '}
+//   <Button variant="link">Link</Button>
+// </> */}
+//     </div>
+//   );
+// }
+
