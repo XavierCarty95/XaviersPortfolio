@@ -10,33 +10,34 @@ export default function Contact() {
   <thead>
     <tr>
       <th>Website</th>
-      <th>First Name</th>
-      <th>Last Name</th>
-      <th>Username</th>
+      
+      <th>Link To Website</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Linkedn</td>
-      <td>Xavier</td>
-      <td>Carty</td>
-      <td>https://www.linkedin.com/in/xaviercarty</td>
+      
+      <td><a href ="https://www.linkedin.com/in/xaviercarty" target="_blank" rel="noopener noreferrer">Linkedn</a></td>
     </tr>
     <tr>
       <td>Github</td>
-      <td>Xavier</td>
-      <td>Carty</td>
-      <td>Xavier95</td>
+      <td><a href ="https://www.github.com/in/xaviercarty" target="_blank" rel="noopener noreferrer">Github</a></td>
     </tr>
     <tr>
       <td>Medium</td>
-      <td>Xavier</td>
-      <td>Carty</td>
-      <td>XavierCarty</td>
+      <td><a href = "https://medium.com/@xaviercarty" target="_blank" rel="noopener noreferrer" >Medium</a></td>
+      
     </tr>
+    <tr>
+      <td>Resume</td>
+      <td><a href = "https://docs.google.com/document/d/1jJ4lkfJ6hUq_NHcPHllNXhmCgC-IOPZYX2idPGwdF-I/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a></td>
+    </tr>
+  
   </tbody>
 </Table>
 </Container>
         </div>
+      
     )
 }

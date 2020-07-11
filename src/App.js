@@ -10,21 +10,30 @@ import Github from './components/GitHub'
 
 class App extends Component {
 
+state = {
+  data: []
+}
 
-// rendeHome = (routerProps) => {
+componentDidMount() {
+    fetch("https://api.github.com/XavierCarty95").then(r => r.json())
+    .then(response => {
+      console.log(response)
+       this.setState({data: response})
+    })
+}
+renderHome = (routerProps) => {
 
-//      if(routerProps.location.pathname === "/home") {
-//               return <Home/>
-//      }
+  if(routerProps.location.pathname === "/home") {
+           return <Home github={this.state.data} />
+  }
 
-//   }
-
+}
   render() {
     return (
       <div>
           <NavBar/>
           <Switch>
-          <Route path="/home" component={Home} />
+          <Route path="/home" render={this.renderHome} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact}/>
           <Route path="/projects" component={Projects} />
