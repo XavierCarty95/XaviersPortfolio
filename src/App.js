@@ -23,7 +23,7 @@ componentDidMount() {
 }
 renderHome = (routerProps) => {
 
-  if(routerProps.location.pathname === "/home" || routerProps.location.pathname === "/XaviersPortfolio/") {
+  if(routerProps.location.pathname ==="/home" || routerProps.location.pathname === "/XaviersPortfolio/") {
            return <Home github={this.state.data} />
   }
 
