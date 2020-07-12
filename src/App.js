@@ -15,7 +15,7 @@ state = {
 }
 
 componentDidMount() {
-    fetch("https://api.github.com/XavierCarty95").then(r => r.json())
+    fetch("https://api.github.com/users/XavierCarty95").then(r => r.json())
     .then(response => {
       console.log(response)
        this.setState({data: response})
