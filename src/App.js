@@ -38,6 +38,7 @@ renderHome = (routerProps) => {
           <Route path="/contact" component={Contact}/>
           <Route path="/projects" component={Projects} />
           <Route path="/github" component={Github} />
+          <Route path="/XaviersPortfolio/" render={this.renderHome} />
          </Switch>
       </div>
     )
