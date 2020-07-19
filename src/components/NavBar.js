@@ -14,13 +14,13 @@ const NavBar = () => {
       <Nav.Link as={Link} to="/about">About</Nav.Link>
       <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
       <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
-      <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+      {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
         <NavDropdown.Item as={Link} to="/blog">Blog</NavDropdown.Item>
         {/* <NavDropdown.Item as={Link} to="/github">Github</NavDropdown.Item> */}
         {/* <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item> */}
         {/* <NavDropdown.Divider /> */}
         {/* <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item> */}
-      </NavDropdown>
+      {/* </NavDropdown> */} */}
     </Nav>
     {/* <Form inline>
       <FormControl type="text" placeholder="Search" className="mr-sm-2" />
