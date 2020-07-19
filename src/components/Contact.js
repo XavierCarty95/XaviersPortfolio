@@ -33,7 +33,10 @@ export default function Contact() {
       <td>Resume</td>
       <td><a href = "https://docs.google.com/document/d/1jJ4lkfJ6hUq_NHcPHllNXhmCgC-IOPZYX2idPGwdF-I/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a></td>
     </tr>
-  
+    <tr>
+      <td>Email</td>
+      <td> xaviercarty@gmail.com </td>
+    </tr>
   </tbody>
 </Table>
 </Container>

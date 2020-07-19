@@ -10,7 +10,9 @@ class Projects extends Component {
                <h1 style={{textAlign: "center", marginTop: "10px"}}> Projects </h1>
             <Container style={{display: 'flex', flexDirection: 'row'}}>
                <Card style={{ width: '18rem', marginRight: "10px" }}>
-               <Card.Img variant="top" src="https://www.youtube.com/watch?v=OOjtC3FIqRg" />
+               <div class="embed-responsive embed-responsive-21by9">
+            <iframe width="560"  title = "tech" height="315" src="https://www.youtube.com/embed/OOjtC3FIqRg" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen = "true"></iframe>
+           </div>
                <Card.Body>
                 <Card.Title>TechHire </Card.Title>
               <Card.Text>
@@ -25,7 +27,9 @@ class Projects extends Component {
   </Card.Body>
 </Card>
 <Card style={{ width: '18rem' }}>
-               <Card.Img variant="top" src="holder.js/100px180" />
+<div class="embed-responsive embed-responsive-21by9">
+<iframe width="560" title="springfield" height="315" src="https://www.youtube.com/embed/sAYIQK-JHHc" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen = "true"></iframe>
+           </div>
                <Card.Body>
                 <Card.Title>Springfield Alumni Chapter</Card.Title>
               <Card.Text>

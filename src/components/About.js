@@ -14,6 +14,10 @@ export class About extends Component {
 
                 Fullstack Developer a bachelor's degree in Psychology and two years of experience working in the healthcare and social service sectors. Passionate about solving mission-oriented problems through tech, and have strong skills in pair-programming, driver navigator roles, github version control and wireframing. 
                 </p>
+                <p> <strong> TECHNICAL SKILLS: </strong>
+                  Ruby, Rails, SQL, Postgres, Javascript, React w/ Redux , C# ASP.Net, HTML5 & CSS, Git, Agile, Postman, Material-UI, BootStrap,Semantic-Ui-React, Github workflow, REST API, OOP.                                                             
+                </p>
+
             </div>
             </Container>
         )
