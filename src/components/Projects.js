@@ -10,7 +10,7 @@ class Projects extends Component {
                <h1 style={{textAlign: "center", marginTop: "10px"}}> Projects </h1>
             <Container style={{display: 'flex', flexDirection: 'row'}}>
                <Card style={{ width: '18rem', marginRight: "10px" }}>
-               <Card.Img variant="top" src="holder.js/100px180" />
+               <Card.Img variant="top" src="https://www.youtube.com/watch?v=OOjtC3FIqRg" />
                <Card.Body>
                 <Card.Title>TechHire </Card.Title>
               <Card.Text>
