@@ -20,7 +20,7 @@ const NavBar = () => {
         {/* <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item> */}
         {/* <NavDropdown.Divider /> */}
         {/* <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item> */}
-      {/* </NavDropdown> */} */}
+      {/* </NavDropdown> */} 
     </Nav>
     {/* <Form inline>
       <FormControl type="text" placeholder="Search" className="mr-sm-2" />
